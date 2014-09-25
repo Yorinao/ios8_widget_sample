@@ -244,8 +244,9 @@ const NSInteger kMaxRow = 4;
     last_comps = [calendar components:NSDayCalendarUnit fromDate:max_ns_day];
     
     max_day = last_comps.day;
+    NSTimeInterval since = [max_ns_day timeIntervalSinceDate:min_ns_day];
     
-    daynum = max_day - min_day;
+    daynum = ceil(since/(24*60*60));
 
     
     Cal_End_Day = max_ns_day;
