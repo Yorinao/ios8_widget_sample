@@ -330,7 +330,6 @@
 				TargetAttributes = {
 					766373B119C98CD00089D5A2 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = JZKSZCX743;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -555,7 +554,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isao Ohta (Y6LUL57W97)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isao Ohta (L65J6FWE3P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isao Ohta (L65J6FWE3P)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -575,7 +575,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "9cc1f38a-6fe8-43d8-846e-95f80d2bbb1b";
+				PROVISIONING_PROFILE = "e637cba7-712a-4be2-8078-7ff9d9674cd3";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -610,7 +610,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "9cc1f38a-6fe8-43d8-846e-95f80d2bbb1b";
+				PROVISIONING_PROFILE = "e637cba7-712a-4be2-8078-7ff9d9674cd3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -622,11 +622,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Today_Widget_Datalink_Sample/Today_Widget_Datalink_Sample.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isao Ohta (Y6LUL57W97)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Today_Widget_Datalink_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "df259e03-5575-4825-85be-bfd2fd9ba409";
+				PROVISIONING_PROFILE = "e637cba7-712a-4be2-8078-7ff9d9674cd3";
 			};
 			name = Debug;
 		};
@@ -636,11 +636,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Today_Widget_Datalink_Sample/Today_Widget_Datalink_Sample.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isao Ohta (Y6LUL57W97)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Today_Widget_Datalink_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "df259e03-5575-4825-85be-bfd2fd9ba409";
+				PROVISIONING_PROFILE = "e637cba7-712a-4be2-8078-7ff9d9674cd3";
 			};
 			name = Release;
 		};
